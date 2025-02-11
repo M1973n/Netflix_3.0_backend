@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin: 'https://netfflix-devmaniya-db8089.netlify.app',
+    origin: 'https://blackflix-devmaniya-db8089.netlify.app',
     credentials: true
 }));
 
